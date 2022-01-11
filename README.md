@@ -3,23 +3,19 @@
 
 namespace Foxx;
 
-class About extends Me
-{
+class About extends Me {
 
-  public function __construct()
-  {
+  public function __construct() {
     $this->name = 'Foxx';
     $this->age = 15;
     $this->pronouns = ['she/her', 'they/them'];
   }
 
-  public function getCredit()
-  {
+  public function getCredit() {
     return "https://github.com/ashbakernz";
   }
 
-  public function getBaseInfo()
-  {
+  public function getBaseInfo() {
     return [
       'name' => $this->name,
       'age' => $this->age,
@@ -35,8 +31,7 @@ class About extends Me
     ];
   }
 
-  public function getCurrentOccupation(): array
-  {
+  public function getCurrentOccupation(): array {
     return [
       'occupation' => [
         'occupation' => 'Student',
@@ -45,8 +40,7 @@ class About extends Me
     ];
   }
 
-  public function getDailyKnowledge(): array
-  {
+  public function getDailyKnowledge(): array {
     return [
       Php::class,
       Javascript::class,
@@ -55,8 +49,7 @@ class About extends Me
     ];
   }
 
-  public function getFutureGoal(): string
-  {
+  public function getFutureGoal(): string {
     return 'To complete at the least, one project';
   }
 }
