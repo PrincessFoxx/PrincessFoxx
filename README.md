@@ -45,7 +45,8 @@ class About extends Me {
       Php::class,
       Javascript::class,
       Html::class,
-      Python::class
+      Python::class,
+      Node.js::class
     ];
   }
 
