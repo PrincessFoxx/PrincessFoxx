@@ -46,7 +46,7 @@ class About extends Me {
       Javascript::class,
       Html::class,
       Python::class,
-      Node.js::class
+      Node::class
     ];
   }
 
