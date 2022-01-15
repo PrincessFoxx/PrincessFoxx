@@ -51,7 +51,7 @@ class About extends Me {
   }
 
   public function getFutureGoal(): string {
-    return 'To complete at the least, one project';
+    return 'To complete at the least one project';
   }
 }
 
