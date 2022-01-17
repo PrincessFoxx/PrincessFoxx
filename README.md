@@ -40,7 +40,7 @@ class About extends Me {
     ];
   }
 
-  public function getDailyKnowledge(): array {
+  public function getSkills(): array {
     return [
       Php::class,
       Javascript::class,
