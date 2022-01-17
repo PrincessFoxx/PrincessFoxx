@@ -53,6 +53,12 @@ class About extends Me {
   public function getFutureGoal(): string {
     return 'To complete at the least one project';
   }
-}
 
+  public function GetProjects() {
+    $json = file_get_contents('https://api.github.com/users/Foxxything/repos');
+    $obj = json_decode($json);
+
+  }
+
+}
 ```
