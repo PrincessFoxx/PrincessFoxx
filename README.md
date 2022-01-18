@@ -55,7 +55,7 @@ class About extends Me {
   }
 
   public function GetProjects() {
-    return $favouriteProjects = {
+    return {
       {
         "Name": "Grade Wars",
         "Url": "https://github.com/Foxxything/Grade-wars"
