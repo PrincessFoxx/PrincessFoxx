@@ -55,10 +55,11 @@ class About extends Me {
   }
 
   public function GetProjects() {
-    // under develiment
-    $json = file_get_contents('https://api.github.com/users/Foxxything/repos');
-    $obj = json_decode($json);
-
+    return $favouriteProjects = {
+      {
+        "Name": "Grade Wars",
+        "Url": "https://github.com/Foxxything/Grade-wars"
+    }
   }
 
 }
