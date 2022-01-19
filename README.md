@@ -59,6 +59,7 @@ class About extends Me {
       {
         "Name": "Grade Wars",
         "Url": "https://github.com/Foxxything/Grade-wars"
+      }
     }
   }
 
