@@ -55,12 +55,10 @@ class About extends Me {
   }
 
   public function GetProjects() {
-    return {
-      {
-        "Name": "Grade Wars",
-        "Url": "https://github.com/Foxxything/Grade-wars"
-      }
-    }
+    return [
+      ['name' => 'Grade Wars', 'link' => 'https://github.com/Foxxything/Grade-wars'],
+      ['name' => 'pjsekai', 'link' => 'https://howlss.com/pjsekai/testing']
+    ]
   }
 
 }
