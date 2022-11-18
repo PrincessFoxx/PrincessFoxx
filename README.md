@@ -7,7 +7,7 @@ class About extends Me {
 
   public function __construct() {
     $this->name = 'Foxx';
-    $this->age = 15;
+    $this->age = 16;
     $this->pronouns = ['she/her', 'they/them'];
   }
 
@@ -48,16 +48,11 @@ class About extends Me {
       Python::class,
       Node::class
     ];
-  }
-
-  public function getFutureGoal(): string {
-    return 'To complete at the least one project';
+  
   }
 
   public function GetProjects() {
     return [
-      ['name' => 'Grade Wars', 'link' => 'https://github.com/Foxxything/Grade-wars'],
-      ['name' => 'pjsekai', 'link' => 'https://howlss.com/pjsekai/']
     ]
   }
 
