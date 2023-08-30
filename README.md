@@ -22,9 +22,9 @@ class About extends Me {
       'pronouns' => $this->pronouns,
       'discription' => "I'm mostly a backend developer, though i'm learning a lot about frontend development.",
       'funFact' => "Like a guided missile, the fox harnesses the Earth's magnetic field to hunt. Other animals, like birds, sharks, and turtles, have this “magnetic sense,” but the fox is the first one we've discovered that uses it to catch prey.",
-      'hobbies' => ['coding', 'video games', 'listening to music'],
+      'hobbies' => ['coding', 'archery', 'listening to music'],
       'favoriteFood' => 'lasagna',
-      'favoriteColor' => ['name' => 'aqua', 'hex' => '#00FFFF'],
+      'favoriteColor' => ['name' => 'coral', 'hex' => '#ff7f50'],
       'favoriteNumber' => 42,
       'favoriteAnimal' => 'fox',
       'favoriteShow' => 'Blindspot'
