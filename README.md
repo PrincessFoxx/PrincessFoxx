@@ -7,8 +7,8 @@ class About extends Me {
 
   public function __construct() {
     $this->name = 'Foxx';
-    $this->age = 16;
-    $this->pronouns = ['she/her', 'they/them'];
+    $this->age = 17;
+    $this->pronouns = ['She/Her', 'It/Its'];
   }
 
   public function getCredit() {
@@ -35,7 +35,7 @@ class About extends Me {
     return [
       'occupation' => [
         'occupation' => 'Student',
-        'Grade' => '10'         
+        'Grade' => '12'         
       ]
     ];
   }
