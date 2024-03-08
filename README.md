@@ -53,6 +53,8 @@ class About extends Me {
 
   public function GetProjects() {
     return [
+      "https://github.com/TheForestSystem/express-learning",
+      "Working on a API wrapper for genius.com"
     ]
   }
 
