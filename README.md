@@ -7,7 +7,7 @@ class About extends Me {
 
   public function __construct() {
     $this->name = 'Foxx';
-    $this->age = 17;
+    $this->age = 18;
     $this->pronouns = ['She/Her', 'It/Its'];
   }
 
